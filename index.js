@@ -11,3 +11,7 @@ function distanceFromHqInBlocks (intNum) {
 function distanceFromHqInFeet(intNum){
          return (distanceFromHqInBlocks(intNum)*264);
 }
+
+function distanceTravelledInFeet(intNumA intNumB){
+          return ((intNumb-intNumA)*264);
+}

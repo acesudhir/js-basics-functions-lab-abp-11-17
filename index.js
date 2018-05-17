@@ -28,3 +28,7 @@ function distanceTravelledInFeet (numStartBlock, numEndBlock) {
            return "cannot travel that far";
          }
 }*/
+
+function calculatesFarePrice(){
+
+}

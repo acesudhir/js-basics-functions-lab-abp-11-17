@@ -29,7 +29,7 @@ function distanceTravelledInFeet (numStartBlock, numEndBlock) {
          }
 }*/
 
-/*function calculatesFarePrice(numStartBlock, numEndBlock){
+function calculatesFarePrice(numStartBlock, numEndBlock){
          distance = distanceTravelledInFeet(numStartBlock,numEndBlock);
 
-}*/
+}

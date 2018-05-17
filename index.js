@@ -34,8 +34,7 @@ function calculatesFarePrice(numStartBlock, numEndBlock){
          console.log(distance);
          if (distance <= 399 || distance === undefined){
            return 0;
-         }
-         if (distance <= 400 && distance <= 2000){
+         } else if (distance <= 400 && distance <= 2000){
            return (distance-400)*0.02;
          }
 }

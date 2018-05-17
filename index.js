@@ -16,7 +16,7 @@ function distanceTravelledInFeet (numStartBlock, numEndBlock) {
          return (Math.abs((numEndBlock - numStartBlock)*264));
 }
 
-function calculatesFarePrice(numStartBlock, numEndBlock){
+/*function calculatesFarePrice(numStartBlock, numEndBlock){
          distanceTravelled = distanceTravelledInFeet (numStartBlock, numEndBlock);
          if distanceTravelled <= 399 {
             return 0;
@@ -27,7 +27,7 @@ function calculatesFarePrice(numStartBlock, numEndBlock){
          } else (distanceTravelled >2500) {
            return "cannot travel that far";
          }
-}
+}*/
 
 /*function calculatesFarePrice(numStartBlock, numEndBlock){
          distance = distanceTravelledInFeet(numStartBlock,numEndBlock);

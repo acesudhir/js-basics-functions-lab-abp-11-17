@@ -13,5 +13,5 @@ function distanceFromHqInFeet(intNum){
 }
 
 function distanceTravelledInFeet(intNumA intNumB){
-          return ((intNumb-intNumA)*264);
+          return ((intNumB-intNumA)*264);
 }

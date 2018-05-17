@@ -15,3 +15,17 @@ function distanceFromHqInFeet(intNum){
 function distanceTravelledInFeet (numStartBlock, numEndBlock) {
          return (Math.abs((numEndBlock - numStartBlock)*264));
 }
+
+function calculatesFarePrice(numStartBlock, numEndBlock){
+         distanceTravelled = distanceTravelledInFeet (numStartBlock, numEndBlock)
+
+         if distanceTravelled <= 399 {
+            return 0;
+         } else if (distanceTravelled <=400 && distanceTravelled <=2000) {
+           return (distanceTravelled*0.02);
+         } else if (distanceTravelled >=2000) {
+           return (distanceTravelled*25);
+         } else (distanceTravelled >2500) {
+           return "cannot travel that far";
+         }
+}

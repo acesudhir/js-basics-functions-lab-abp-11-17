@@ -1,5 +1,10 @@
 // Code your solution in this file!
 
 function distanceFromHqInBlocks (intNum) {
-         return (intNum - 42);
+         if intNum <42 {
+           return 8;
+         } else {
+           return (intNum - 42);           
+         }
+
 }

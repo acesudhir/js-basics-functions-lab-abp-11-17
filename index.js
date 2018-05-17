@@ -10,5 +10,5 @@ function distanceFromHqInBlocks (intNum) {
 
 function distanceFromHqInFeet(intNum){
          intDistanceInBlocks = distanceFromHqInBlocks(intNum);
-         return (intDistanceInBlocks*0.003030);
+         return (intDistanceInBlocks*264);
 }
